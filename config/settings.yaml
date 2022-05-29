@@ -1,0 +1,18 @@
+site: {
+  title: "SimpleWebSite",
+  url: "",
+  style: "simple.min.css",
+  database: {
+    host: False,
+    login: False,
+    password: False,
+    database_name: False,
+  },
+}
+flask: {
+  ENV: development,
+  DEBUG: True,
+  #TESTING: False,
+  #SERVER_NAME: '',
+  #SECRET_KEY: "",
+}
